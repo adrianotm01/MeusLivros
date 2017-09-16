@@ -26,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Main3Activity.class);
         startActivity(i);
     }
+
+    public void tela4(View v){
+        Intent intent = new Intent(this,MainActivity4.class);
+        startActivity(intent);
+    }
+
+    public void tela5(View v){
+        Intent i = new Intent(this,MainActivity5.class);
+        startActivity(i);
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK) {
